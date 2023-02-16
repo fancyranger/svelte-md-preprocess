@@ -3,7 +3,6 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkGfm from 'remark-gfm'
-import remarkMdx from 'remark-mdx'
 import remarkRehype from 'remark-rehype'
 import rehypeStringify from 'rehype-stringify'
 
