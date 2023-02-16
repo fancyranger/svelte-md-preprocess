@@ -1,9 +1,13 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import sample1 from './markdowns/sample1.md'
+  import sample2 from './markdowns/sample2.md'
 </script>
 
 <main>
+  <svelte:component this={sample1} />
+
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -25,6 +29,8 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+
+  <svelte:component this={sample2} />
 </main>
 
 <style>
